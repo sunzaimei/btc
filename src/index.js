@@ -98,7 +98,7 @@ import dailyForecastSent from './data2';
           },
           series: [{
             type: 'area',
-            name: 'True Price',
+            name: 'Real Price',
             data: realPriceSerise,
             fillColor: {
                       linearGradient: {
@@ -207,7 +207,7 @@ import dailyForecastSent from './data2';
       },
       series: [{
         type: 'area',
-        name: 'Twitter Sentiment',
+        name: 'Bitcoin Price',
         data: sentimentSeries,
         fillColor: {
                   linearGradient: {
@@ -223,7 +223,7 @@ import dailyForecastSent from './data2';
               },
       },{
         // type: 'scatter',
-        name: 'Bitcoin Price',
+        name: 'Twitter Sentiment',
         data: priceSeries,
         color: '#FD3412'
       }]
